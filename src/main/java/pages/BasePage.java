@@ -38,9 +38,7 @@ public class BasePage {
     }
   }
 
-  public WebElement waitForElementToExist(String locatorType, String locatorValue, String replacement) {
-    locatorValue = (replacement != "") ? locatorValue.replace("%s", replacement) : locatorValue;
-
+  public WebElement waitForElementToExist(String locatorType, String locatorValue) {
     switch (locatorType) {
       case "id":
         WebElement elementById = wait.until(ExpectedConditions.presenceOfElementLocated(By.id(locatorValue)));
@@ -60,9 +58,8 @@ public class BasePage {
     }
   }
 
-  public void clickElement(String locatorType, String locatorValue, String... replacement) {
-    locatorValue = (replacement.length == 1) ? locatorValue.replace("%s", replacement[0]) : locatorValue;
-    WebElement element = waitForElementToExist(locatorType, locatorValue, "");
+  public void clickElement(String locatorType, String locatorValue) {
+    WebElement element = waitForElementToExist(locatorType, locatorValue);
     wait.until(ExpectedConditions.elementToBeClickable(element)).click();
   }
 
