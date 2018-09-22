@@ -1,1 +1,10 @@
-tests/BaseTestClass.class
+computers/pages/AddNewComputer.class
+computers/interfaces/iResults.class
+computers/locators/ComputersLocators.class
+tests/AddNewComputerTests.class
+computers/pages/BasePage.class
+generics/util/Constants.class
+computers/pages/Results.class
+tests/BaseTest.class
+computers/interfaces/iAddNewComputer.class
+generics/util/Utilities.class
