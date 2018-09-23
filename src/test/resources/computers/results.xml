@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Results Test Suit" verbose="1" parallel="false">
+  <test name="Results Scripts">
+    <classes>
+      <class name="tests.ResultsTests">
+        <parameter name="searchCriteria" value="AN/"></parameter>
+        <methods>
+          <include name="searchResultsRetrieveOneOrMoreResults"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

@@ -6,4 +6,6 @@ public class Constants {
 
   public static final String CHROME_DRIVER_PATH = "/drivers/chromedriver";
 
+  public static final String COMPUTER_CREATED_INLINE_MSG = "Done! Computer %s has been created";
+
 }

@@ -1,9 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: tests.BaseTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.057 sec <<< FAILURE!
-setUp(tests.BaseTest)  Time elapsed: 1.587 sec  <<< FAILURE!
-java.lang.NullPointerException
-	at tests.BaseTest.navigateTo(BaseTest.java:56)
-	at tests.BaseTest.setUp(BaseTest.java:25)
-
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.247 sec

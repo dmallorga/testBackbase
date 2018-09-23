@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Backbase Regression Test " verbose="1" parallel="false">
+  <suite-files>
+    <suite-file path="results.xml"></suite-file>
+    <suite-file path="addNewComputer.xml"></suite-file>
+  </suite-files>
+</suite>
+
