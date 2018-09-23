@@ -16,7 +16,7 @@ import org.testng.annotations.BeforeSuite;
 public class BaseTest {
 
   private WebDriver driver;
-  public static Logger log = Logger.getLogger("TestingLog");
+  public static Logger log = Logger.getLogger("Testing Log");
   protected Results Results;
 
   @BeforeSuite

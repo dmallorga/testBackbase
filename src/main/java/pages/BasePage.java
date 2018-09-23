@@ -1,5 +1,6 @@
 package pages;
 
+import java.util.logging.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -13,6 +14,7 @@ public class BasePage {
 
   protected WebDriverWait wait;
   protected WebDriver driver;
+  protected static Logger log = Logger.getLogger("BasePage Logger");
 
   public BasePage(WebDriver driver){
     this.driver = driver;

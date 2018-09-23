@@ -4,8 +4,14 @@
   <test name="Add New Computer Scripts">
     <classes>
       <class name="tests.AddNewComputerTests">
+        <parameter name="computerName" value="Daniel's Computer"></parameter>
+        <parameter name="introducedDate" value="2018-05-29"></parameter>
+        <parameter name="discontinuedDate" value="2018-12-24"></parameter>
+        <parameter name="companyName" value="Tandy Corporation"></parameter>
         <methods>
           <include name="addNewComputerScreenDisplays"/>
+          <include name="addNewComputerByOnlyEnteringRequiredFields"/>
+          <include name="cannotAddNewComputerWithoutEnteringRequiredField"/>
         </methods>
       </class>
     </classes>
