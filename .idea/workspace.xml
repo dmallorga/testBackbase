@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9d3bb58-6fd7-4fd1-a1c3-306219f7f66d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ResultsTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/computers/regression.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/computers/results.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/locators/ComputersLocators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locators/ComputersLocators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AddNewComputer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AddNewComputer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Results.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Results.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/locators/ComputersLocators.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/locators/ComputersLocators.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/AddNewComputer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/AddNewComputer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/Results.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/Results.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a9d3bb58-6fd7-4fd1-a1c3-306219f7f66d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,8 +46,8 @@
       <file leaf-file-name="ResultsTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/ResultsTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="225">
+              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -954,8 +937,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/ResultsTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="225">
+          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
