@@ -52,8 +52,7 @@ public class AddNewComputer extends BasePage {
   }
 
   public void selectCompanyFromList(String companyName){
-    log.info("Select company from position [" + companyName + "]");
-
+    log.info("Select company " + companyName + " from the list.");
     Select companyDropDown = new Select(driver.findElement(By.id(ComputersLocators.COMPANY_LIST_ID)));
     companyDropDown.selectByVisibleText(companyName);
   }

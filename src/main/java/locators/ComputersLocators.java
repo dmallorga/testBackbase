@@ -15,5 +15,10 @@ public class ComputersLocators {
 
   // RESULTS SECTION
   public static final String INLINE_MSG_XPATH = "/html/body/section/div[1]";
+  public static final String SEARCH_FIELD_ID = "searchbox";
+  public static final String FILTER_BY_NAME_BTN_ID = "searchsubmit";
+  public static final String RESULTS_TABLE_ROWS_XPATH = "/html/body/section/table/tbody/tr";
+  public static final String RESULTS_FOUND_TEXT_XPATH = "/html/body/section/h1";
+  public static final String PAGINATION_RESULTS__TEXT_XPATH = "/html/body/section/div[2]/ul/li[2]/a";
 
 }
