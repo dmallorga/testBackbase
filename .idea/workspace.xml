@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a9d3bb58-6fd7-4fd1-a1c3-306219f7f66d" name="Default" comment="" />
+    <list default="true" id="a9d3bb58-6fd7-4fd1-a1c3-306219f7f66d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backbase Scenarios.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Backbase Scenarios.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Results.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Results.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ResultsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ResultsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/computers/results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/computers/results.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,38 +24,31 @@
       <file leaf-file-name="Results.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/Results.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+            <state relative-caret-position="239">
+              <caret line="65" column="59" selection-start-line="65" selection-start-column="59" selection-end-line="65" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2076#2077#0" expanded="true" />
+                <element signature="e#2103#2104#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ComputersLocators.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/locators/ComputersLocators.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="99" selection-start-line="21" selection-start-column="99" selection-end-line="21" selection-end-column="99" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="results.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="results.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/computers/results.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="62" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="62" />
+            <state relative-caret-position="165">
+              <caret line="11" column="100" selection-start-line="11" selection-start-column="100" selection-end-line="11" selection-end-column="100" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResultsTests.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ResultsTests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/ResultsTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+            <state relative-caret-position="75">
+              <caret line="38" column="89" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="89" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,8 +103,6 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/interfaces/iAddNewComputer.java" />
         <option value="$PROJECT_DIR$/src/main/java/interfaces/iResults.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/Constants.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/BasePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/AddNewComputerTests.java" />
         <option value="$PROJECT_DIR$/src/test/resources/computers/addNewComputer.xml" />
@@ -111,10 +110,12 @@
         <option value="$PROJECT_DIR$/src/test/resources/computers/results.xml.fxml" />
         <option value="$PROJECT_DIR$/src/test/resources/computers/regression.xml.fxml" />
         <option value="$PROJECT_DIR$/src/test/resources/computers/regression.xml" />
-        <option value="$PROJECT_DIR$/src/test/resources/computers/results.xml" />
         <option value="$PROJECT_DIR$/src/main/java/locators/ComputersLocators.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/BasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/Constants.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/Results.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/ResultsTests.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/computers/results.xml" />
       </list>
     </option>
   </component>
@@ -540,11 +541,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31107000" />
+    <option name="totallyTimeSpent" value="33371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="819" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -853,24 +853,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/iAddNewComputer.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/interfaces/iResults.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="96" selection-start-line="8" selection-start-column="96" selection-end-line="8" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/BasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -881,16 +867,6 @@
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tests/AddNewComputerTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="3" selection-start-line="9" selection-start-column="2" selection-end-line="19" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/AddNewComputer.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -910,6 +886,13 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="73" selection-start-line="16" selection-start-column="73" selection-end-line="16" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/locators/ComputersLocators.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -917,33 +900,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/computers/results.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="62" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="62" />
+        <state relative-caret-position="256">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tests/AddNewComputerTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="28" column="47" lean-forward="true" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/Results.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        <state relative-caret-position="239">
+          <caret line="65" column="59" selection-start-line="65" selection-start-column="59" selection-end-line="65" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2076#2077#0" expanded="true" />
+            <element signature="e#2103#2104#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/ResultsTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="3" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        <state relative-caret-position="75">
+          <caret line="38" column="89" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="89" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/computers/results.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="100" selection-start-line="11" selection-start-column="100" selection-end-line="11" selection-end-column="100" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
   </component>
   <component name="masterDetails">

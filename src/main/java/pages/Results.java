@@ -53,4 +53,16 @@ public class Results extends BasePage {
     return rowCount == Integer.parseInt(resultsFound.split(" ")[0]) && rowCount == Integer
         .parseInt(paginationResults.split("of ")[1]);
   }
+
+  public boolean isNoComputerSFoundMsgDisplayed(){
+    return isTextPresent(Constants.NO_COMPUTERS_FOUND_MSG);
+  }
+
+  public void removeSearchCriteria() {
+    searchBox.clear();
+  }
+
+  public boolean isNothingToDisplayMsgPresent() {
+    return isTextPresent(Constants.NOTHING_TO_DISPLAY_MSG);
+  }
 }

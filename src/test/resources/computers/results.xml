@@ -5,8 +5,11 @@
     <classes>
       <class name="tests.ResultsTests">
         <parameter name="searchCriteria" value="AN/"></parameter>
+        <parameter name="noMatchingSearchCriteria" value="test123"></parameter>
         <methods>
           <include name="searchResultsRetrieveOneOrMoreResults"/>
+          <include name="noComputersFoundMsgDisplaysWhenThereIsNoMatchingForEnteredSearchCriteria"/>
+          <include name="nothingToDisplayMsgStatesInScreenWhenThereIsNoMatchForEnteredSearchCriteria"/>
         </methods>
       </class>
     </classes>

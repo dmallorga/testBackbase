@@ -22,22 +22,15 @@ public class BasePage {
     PageFactory.initElements(driver, this);
   }
 
-  public void waitSeconds(double timeToWaitInSec) {
-    try {
-      long timeToWaitInMilliSec = (long) timeToWaitInSec * 1000;
-      Thread.sleep(timeToWaitInMilliSec);
-    } catch (InterruptedException e) {
-      e.printStackTrace();
-    }
+  public void clickElement(String locatorType, String locatorValue) {
+    WebElement element = waitForElementToExist(locatorType, locatorValue);
+    wait.until(ExpectedConditions.elementToBeClickable(element)).click();
   }
 
-  public void waitForPageToLoad() {
-    JavascriptExecutor js=(JavascriptExecutor)driver;
-    String state = (String)js.executeScript("return document.readyState");
-    while(!state.equals("complete")){
-      waitSeconds(1);
-      state = (String)js.executeScript("return document.readyState");
-    }
+  public boolean isTextPresent(String textoToFind)
+  {
+    WebElement bodyElement = driver.findElement(By.tagName("body"));
+    return bodyElement.getText().contains(textoToFind);
   }
 
   public WebElement waitForElementToExist(String locatorType, String locatorValue) {
@@ -58,11 +51,6 @@ public class BasePage {
         Assert.fail("waitForElementToExist(): Unexpected locator type: \"" + locatorType + "\"");
         return null;
     }
-  }
-
-  public void clickElement(String locatorType, String locatorValue) {
-    WebElement element = waitForElementToExist(locatorType, locatorValue);
-    wait.until(ExpectedConditions.elementToBeClickable(element)).click();
   }
 
 }
